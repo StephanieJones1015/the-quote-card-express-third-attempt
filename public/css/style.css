@@ -1,44 +1,59 @@
-@import url("./reset.css");
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;        
-    justify-content: center;
-    background-color: lightblue;
-    color:white;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .background-img {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; 
-    opacity: 0.5; 
+    position: absolute;
+    background-image: url('../img/background.jpg'); /* Replace with your image path */
+    background-size: cover; 
+    background-position: center; 
+    top: 0; 
+    left: 0; 
+    height: 100%; 
+    width: 100%; 
+    background-repeat: no-repeat; 
+    z-index: -1;
 }
 
 .quote-container {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
     text-align: center;
-    }
+    padding: 20px;
+    max-width: 600px;
+    z-index: 10;
+}
 
-    .quote-text {
-    font-size: 24px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
+.quote-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    max-width: 70%;
+    line-height: 1.4;
+}
+
+.author-text {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote-container::before {
+    content: open-quote;
+    font-size: 5em;
+    color: #fff;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.quote-container::after {
+    content: close-quote;
+    font-size: 5em;
+    color: #fff;
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
 }
