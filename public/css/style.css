@@ -1,18 +1,57 @@
 body {
+    font-family: 'Arial', sans-serif; /* Use a clean, modern font */
+    background-color: lightblue; /* Light background for contrast */
+  
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
 }
 
 .main {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width of the container */
+    background-image: url('../images/background.jpg'); /* Path to your background image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire container */
 }
 
 .background-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire container */
 }
 
 .quote-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */    
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 85vh;
+    width: 90%; /* Full width of the container */
+    border: 3px solid white;
 }
 
 .quote-text {
+    font-size: 1.5rem; /* Larger font size for emphasis */
+    text-align: center; /* Center the quote text */
+    color: #555; /* Softer color for the quote text */
+    margin: 20px 0; /* Spacing around the quote */
+    font-style:italic;
 }
 
 .author-text {
+    font-size: 1.2rem; /* Slightly smaller than the quote text */
+    color: #777; /* Lighter color for the author */
+    text-align: center; /* Center the author text */
+    margin-top: 10px; /* Spacing above the author text */
 }
      
