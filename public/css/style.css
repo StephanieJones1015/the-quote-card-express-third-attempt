@@ -18,13 +18,14 @@ body {
     justify-content: center; /* Center items vertically */
     height: 100vh; /* Full viewport height */
     width: 100%; /* Full width of the container */
-    background-image: url('../images/background.jpg'); /* Path to your background image */
+    background-image: url("/img/The-journey-of-a-thousand-miles-begins-with-one-step.-–-Lao-Tzu-1920x1920.jpg")
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; /* Cover the entire container */
 }
 
 .background-img {
+    background-image: url(
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; /* Cover the entire container */
