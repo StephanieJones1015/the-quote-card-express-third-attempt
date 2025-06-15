@@ -52,7 +52,7 @@ body {
 }
 
 .background-img {
-    background-image: url("/img/zetong-li-V0OUeuUAtz4-unsplash.jpg");
+    background-image: url('../img/zetong-li-V0OUeuUAtz4-unsplash.jpg'); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
