@@ -1,58 +1,59 @@
 body {
-    font-family: 'Arial', sans-serif; /* Use a clean, modern font */
-    background-color: lightblue; /* Light background for contrast */
-  
+    font-family: 'Arial', sans-serif; 
+    background-color: lightblue; 
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
 }
 
 .main {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    height: 100vh; /* Full viewport height */
-    width: 100%; /* Full width of the container */
-    background-image: url("/img/The-journey-of-a-thousand-miles-begins-with-one-step.-–-Lao-Tzu-1920x1920.jpg");
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+    width: 100%; 
+    background-image: url("/img/zetong-li-V0OUeuUAtz4-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; /* Cover the entire container */
+    background-size: cover; 
 }
 
 .background-img {
-    background-image: url("/img/The-journey-of-a-thousand-miles-begins-with-one-step.-–-Lao-Tzu-1920x1920.jpg");
+
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; /* Cover the entire container */
+    background-size: cover; 
 }
 
 .quote-container {
     display: flex;
-    flex-direction: column; /* Stack items vertically */    
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
+    flex-direction: column;  
+    align-items: center; 
+    justify-content: center; 
     height: 85vh;
-    width: 90%; /* Full width of the container */
+    width: 90%; 
     border: 3px solid white;
 }
 
 .quote-text {
-    font-size: 1.5rem; /* Larger font size for emphasis */
-    text-align: center; /* Center the quote text */
-    color: #555; /* Softer color for the quote text */
-    margin: 20px 0; /* Spacing around the quote */
+    font-size: 2.5rem; 
+    text-align: center; 
+    color: black; 
+    margin: 20px 0; 
     font-style:italic;
 }
 
 .author-text {
-    font-size: 1.2rem; /* Slightly smaller than the quote text */
-    color: #777; /* Lighter color for the author */
-    text-align: center; /* Center the author text */
-    margin-top: 10px; /* Spacing above the author text */
+    font-size: 1.2rem; 
+    color: black; 
+    text-align: center; 
+    margin-top: 10px; 
 }
+
+
      
