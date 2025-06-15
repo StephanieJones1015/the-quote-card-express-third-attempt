@@ -1,9 +1,4 @@
-.background-img {
-    background-image: url("/img/zetong-li-V0OUeuUAtz4-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
+
 
 body {
     font-family: 'Arial', sans-serif; 
@@ -56,6 +51,11 @@ body {
     margin-top: 10px; 
 }
 
-
+.background-img {
+    background-image: url("/img/zetong-li-V0OUeuUAtz4-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
 
      
