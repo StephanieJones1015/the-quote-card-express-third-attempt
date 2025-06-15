@@ -34,6 +34,7 @@ body {
     height: 85vh;
     width: 90%; 
     border: 3px solid white;
+    z-index: 10;
 }
 
 .quote-text {
@@ -52,7 +53,8 @@ body {
 }
 
 .background-img {
-    background-image: url('../img/zetong-li-V0OUeuUAtz4-unsplash.jpg'); 
+     background-image: url('../img/zetong-li-V0OUeuUAtz4-unsplash.jpg');
+  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
