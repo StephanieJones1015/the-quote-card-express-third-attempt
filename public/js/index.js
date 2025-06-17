@@ -17,8 +17,9 @@ async function getRandomImage() {
     }
 }
 
+getRandomImage();
 
-/*const quotes = [
+ /* const quotes = [
     {
         quote: "All hands! Abandon ship!",
         author: "Captain Picard",
@@ -48,4 +49,4 @@ function loopThroughQuotes() {
 }
 setTimeout(loopThroughQuotes, 3000); */
 
-getRandomImage();
+
