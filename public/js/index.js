@@ -8,7 +8,7 @@ const elements = {
 };
 
 async function getRandomImage() {
-    const client_id = "qyrjw6HNMhP2c3Q6UDNoM5d5PKSExevkwDrVWy2YJcI";
+    const client_id = 
     const endpoint = `https://api.unsplash.com/photos/random/?client_id=${client_id}`;
     try {
         const response = await fetch(endpoint);
