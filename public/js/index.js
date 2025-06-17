@@ -1,12 +1,14 @@
 "use strict"
 
+
+
 const elements = {
     quote: document.getElementById("quote"),
     author: document.getElementById("author"),
 };
 
 async function getRandomImage() {
-    const client_id = "YOUR_ACCESS_KEY";
+    const client_id = "qyrjw6HNMhP2c3Q6UDNoM5d5PKSExevkwDrVWy2YJcI";
     const endpoint = `https://api.unsplash.com/photos/random/?client_id=${client_id}`;
     try {
         const response = await fetch(endpoint);
