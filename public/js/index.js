@@ -7,6 +7,8 @@ const elements = {
     author: document.getElementById("author"),
 };
 
+
+
 async function getRandomImage() {
     const endpoint = "http://localhost:8080/api/v1/getRandomImage";
     try {
