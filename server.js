@@ -29,12 +29,15 @@ async function getRandomImage() {
     }
 }
 
+
 app.use("/api/v1/getRandomImage", async (request, response) => {
     response.status(200).json({
         status: 200,
         data: await getRandomImage(),
     });
 });
+
+
 
 app.listen(port, () => {
     console.log(`Server is running http://localhost:${port}`);
