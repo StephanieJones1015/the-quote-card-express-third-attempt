@@ -37,12 +37,7 @@ app.use("/api/v1/getRandomImage", async (request, response) => {
     });
 });
 
-app.use("/api/v1/getRandomImage", (request, response) => {
-    response.status(200).json({
-        status: 200,
-        data: process.env.CLIENT_ID
-    });
-});
+
 
 app.listen(port, () => {
     console.log(`Server is running http://localhost:${port}`);
